@@ -19,12 +19,8 @@ const Profile = () => {
               HI THERE{" "}
               <span>
                 {" "}
-                <FontAwesomeIcon
-                  className="text-yellow-300"
-                  icon={faHand}
-                  // eslint-disable-next-line react/no-unescaped-entities
-                />{" "}
-                I'M
+                <FontAwesomeIcon className="text-yellow-300" icon={faHand} /> I
+                AM
               </span>
             </h1>
             <h2 className="text-[72px] font-bold text-white text-center mt-2">
