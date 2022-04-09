@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+/* Tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Defined class styles using apply */
+
+.hireMeBtn {
+  @apply px-4 p-1 pb-1 rounded-md text-[#0369A1] text-xl border-2 border-[#0369A1] bg-transparent hover:bg-[#0c4a6e] hover:text-white;
+}
