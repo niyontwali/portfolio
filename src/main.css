@@ -10,3 +10,9 @@
 .hireMeBtn {
   @apply px-4 p-1 pb-1 rounded-md text-[#0369A1] text-xl border-2 border-[#0369A1] bg-transparent hover:bg-[#0c4a6e] hover:text-white;
 }
+.signUpBtn {
+  @apply px-4 pb-1 rounded-md font-semibold text-orange-800 text-xl border-2 border-orange-600 bg-transparent hover:bg-orange-600 hover:text-white;
+}
+.active {
+  @apply text-[#0369A1] font-bold;
+}

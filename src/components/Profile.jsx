@@ -5,12 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Profile = () => {
   return (
     <div className="">
-      <div className="lg:flex mt-4 lg:mx-[200px]">
-        <div className="lg:flex-1 flex lg:justify-start">
+      <div className="flex mb-4 lg:mx-[200px] flex-wrap px-6">
+        <div className="lg:flex-1 flex lg:justify-start md:justify-center">
           <img
             src={profile}
             alt="Profile"
-            className="w-[350px] h-[400px] rounded-full mt-10"
+            className="lg:w-[350px] lg:h-[400px] rounded-full mt-10"
           />
         </div>
         <div className="lg:flex-2 flex lg:justify-start sm:justify-center">
@@ -23,7 +23,7 @@ const Profile = () => {
                 AM
               </span>
             </h1>
-            <h2 className="text-[72px] font-bold text-white text-center mt-2">
+            <h2 className="lg:text-[72px] font-bold text-white text-center mt-2 text-[30px]">
               John Niyontwali
             </h2>
             <p className="text-xl font-bold text-[#0369A1] text-center mb-2">
@@ -36,7 +36,7 @@ const Profile = () => {
                 />
               </span>
             </p>
-            <p className="text-xl text-white mt-2 text-justify">
+            <p className="text-xl text-white mt-2 text-center">
               A Software Engineer with 2 years of experience, with a strong
               passion and committment for developing web and mobile apps. I use
               JavaScript Stack and its technologies like Node.js, Express, React
@@ -44,8 +44,21 @@ const Profile = () => {
               to develop mobile apps.
             </p>
             <div className="flex justify-evenly items-center mt-10 mb-5">
-              <button className="hireMeBtn">Hire Me!</button>
-              <button className="hireMeBtn">Download my CV</button>
+              <button
+                className="hireMeBtn"
+                onClick={(e) => {
+                  window.location.href = "mailto:nijohn0006@gmail.com";
+                  e.preventDefault();
+                }}
+              >
+                Hire Me!
+              </button>
+              <button className="hireMeBtn">
+                {" "}
+                <a href="https://docs.google.com/document/d/1AIIts1OY9iwcQ4aumbH3MUla-jWhVu8mdRyXTBv07q4/edit?usp=sharing">
+                  Download my CV
+                </a>
+              </button>
             </div>
           </div>
         </div>
