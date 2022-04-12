@@ -12,7 +12,7 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className="block lg:hidden">
-          <button className="flex items-center px-3 py-2 border rounded text-[#0369A1] border-[#0369A1] hover:text-white hover:border-white">
+          <button className="flex items-center px-3 py-2 border rounded text-white border-white hover:text-[#0369A1] hover:border-[#0369A1]">
             <svg
               className="fill-current h-3 w-3"
               viewBox="0 0 20 20"

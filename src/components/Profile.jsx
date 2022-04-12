@@ -4,18 +4,18 @@ import { faHand, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Profile = () => {
   return (
-    <div className="">
+    <>
       <div className="flex mb-4 lg:mx-[200px] flex-wrap px-6">
-        <div className="lg:flex-1 flex lg:justify-start md:justify-center">
+        <div className="lg:flex-1 flex lg:justify-start mx-auto">
           <img
             src={profile}
             alt="Profile"
-            className="lg:w-[350px] lg:h-[400px] rounded-full mt-10"
+            className="lg:w-[350px] lg:h-[400px] w-[250px] h-[300px] rounded-full lg:mt-10 mt-0"
           />
         </div>
-        <div className="lg:flex-2 flex lg:justify-start sm:justify-center">
+        <div className="lg:flex-2 flex lg:justify-start">
           <div className="mt-2 max-w-xl rounded overflow-hidden shadow-sm">
-            <h1 className="text-lg font-bold text-white text-center shadow-">
+            <h1 className="text-lg font-bold text-white text-center mt-4">
               HI THERE{" "}
               <span>
                 {" "}
@@ -36,7 +36,7 @@ const Profile = () => {
                 />
               </span>
             </p>
-            <p className="text-xl text-white mt-2 text-center">
+            <p className="text-xl text-white mt-2 lg:text-center text-justify">
               A Software Engineer with 2 years of experience, with a strong
               passion and committment for developing web and mobile apps. I use
               JavaScript Stack and its technologies like Node.js, Express, React
@@ -63,7 +63,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

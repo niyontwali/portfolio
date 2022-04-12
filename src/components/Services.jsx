@@ -11,7 +11,7 @@ import { faDatabase, faMobile } from "@fortawesome/free-solid-svg-icons";
 const Services = () => {
   return (
     <>
-      <div className="flex items-center justify-between flex-wrap py-8 px-6 lg:px-40">
+      <div className="flex items-center justify-between flex-wrap py-0 px-6 lg:px-40">
         <div className="max-w-sm py-4 hover:py-6 px-8 hover:bg-slate-800 hover:text-white bg-[#2b2b2b] shadow-lg rounded-lg my-12">
           <div className="">
             <FontAwesomeIcon
@@ -51,7 +51,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="max-w-sm py-4 hover:py-6 px-8 hover:bg-slate-800 hover:text-white bg-[#2b2b2b] shadow-lg rounded-lg my-20">
+        <div className="max-w-sm py-4 hover:py-6 px-8 hover:bg-slate-800 hover:text-white bg-[#2b2b2b] shadow-lg rounded-lg my-12">
           <div>
             <FontAwesomeIcon
               className="w-16 h-16 rounded-md text-yellow-400 hover:text-white z-20"
@@ -70,7 +70,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="max-w-sm py-4 hover:py-6 px-8 hover:bg-slate-800 hover:text-white bg-[#2b2b2b] shadow-lg rounded-lg my-20">
+        <div className="max-w-sm py-4 hover:py-6 px-8 hover:bg-slate-800 hover:text-white bg-[#2b2b2b] shadow-lg rounded-lg my-12">
           <div>
             <FontAwesomeIcon
               className="w-16 h-16 rounded-md text-yellow-400 hover:text-white"
@@ -89,7 +89,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="max-w-sm py-4 hover:py-6 px-8 hover:bg-slate-800 hover:text-white bg-[#2b2b2b] shadow-lg rounded-lg my-20">
+        <div className="max-w-sm py-4 hover:py-6 px-8 hover:bg-slate-800 hover:text-white bg-[#2b2b2b] shadow-lg rounded-lg my-12">
           <div>
             <FontAwesomeIcon
               className="w-16 h-16 rounded-md text-yellow-400 hover:text-white"
@@ -108,7 +108,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="max-w-sm py-4 hover:py-6 px-8 hover:bg-slate-800 hover:text-white bg-[#2b2b2b] shadow-lg rounded-lg my-20">
+        <div className="max-w-sm py-4 hover:py-6 px-8 hover:bg-slate-800 hover:text-white bg-[#2b2b2b] shadow-lg rounded-lg my-12">
           <div>
             <FontAwesomeIcon
               className="w-16 h-16 rounded-md text-yellow-400 hover:text-white z-20"

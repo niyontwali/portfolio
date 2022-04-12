@@ -9,7 +9,7 @@ as the landing page view
 
 const Home = () => {
   return (
-    <div className="pt-16 mb-28">
+    <div className="lg:pt-16 pt-4 lg:mb-28 mb-4">
       <Profile />
     </div>
   );
