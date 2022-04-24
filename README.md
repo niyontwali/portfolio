@@ -1,6 +1,7 @@
-[![Development workflow](https://github.com/niyontwali/personal-branding-frontend/actions/workflows/development.yml/badge.svg?branch=develop&event=push)](https://github.com/niyontwali/personal-branding-frontend/actions/workflows/development.yml)
+# Portfolio Frontend
 
-# Personal Branding Frontend
+![myPortfolio](https://user-images.githubusercontent.com/16195731/165000919-2c24e1c4-9855-410f-8c82-48879dade07b.jpg)
+
 
 ## Description
 
