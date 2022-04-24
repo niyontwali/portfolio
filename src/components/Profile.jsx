@@ -36,7 +36,7 @@ const Profile = () => {
                 />
               </span>
             </p>
-            <p className="text-xl text-white mt-2 lg:text-center text-justify">
+            <p className="text-lg text-justify text-white mt-2 lg:text-center lg:text-xl">
               A Software Engineer with 2 years of experience, with a strong
               passion and committment for developing web and mobile apps. I use
               JavaScript Stack and its technologies like Node.js, Express, React
