@@ -94,13 +94,25 @@ const Footer = () => {
               <a
                 href="https://njohn.netlify.app/"
                 className="hover:text-gray-300"
+                target="_blank"
+                rel="noreferrer"
               >
-                Portfolio
+                My Portfolio
               </a>
-              <a href="" className="hover:text-gray-300">
+              <a
+                href="https://github.com/niyontwali/epicLib"
+                className="hover:text-gray-300"
+                target="_blank"
+                rel="noreferrer"
+              >
                 epicLib
               </a>
-              <a href="" className="hover:text-gray-300">
+              <a
+                href="https://github.com/atlp-rwanda/Phantom-Frontend-Elites"
+                className="hover:text-gray-300"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Phantom App
               </a>
             </div>
