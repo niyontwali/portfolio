@@ -16,3 +16,14 @@
 .active {
   @apply text-[#0369A1] font-bold;
 }
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
