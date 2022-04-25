@@ -46,7 +46,10 @@ const ImageSlide = ({ slides }) => {
                   className="h-[50%] lg:h-[400px] rounded-md"
                 />
                 <div className="text-white text-sm m-auto text-center w-[220px] py-2 mt-6 opacity-90  border-[4px] rounded-full border-[#0369A1] hover:text-[#0369A1] hover:border-transparent hover:bg-white">
-                  <a href={slide.url}> Navigate to the Project </a>
+                  <a href={slide.url} target="_blank" rel="noreferrer">
+                    {" "}
+                    Navigate to the Project{" "}
+                  </a>
                 </div>
               </div>
             )}
