@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ImageSlide from "./ImageSlide";
+import Skeleton from "./Skeleton";
 import { SliderData } from "./SlideData";
 
 const Projects = () => {
+  const [isPending, setIsPending] = useState(true);
+
+  useEffect(() => {
+    setIsPending(false);
+  }, []);
+
   return (
-    // <div className="h-screen flex items-center justify-between flex-wrap bg-[#262626] py-8 px-6 lg:px-40"></div>
     <>
+      <div className="flex justify-center items-center">
+        {isPending && <Skeleton />}
+      </div>
       <ImageSlide slides={SliderData} />
     </>
   );
